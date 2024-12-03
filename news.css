@@ -1,0 +1,183 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #2c2c2c;
+}
+
+/* Navbar Styling */
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+    color: white;
+}
+
+.main-nav {
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-nav ul li a:hover {
+    color: #ffc107; /* Yellow hover effect */
+}
+
+.main-nav ul li a i {
+    margin-right: 8px;
+}
+
+/* Hamburger Menu (for mobile view) */
+.menu-toggle .hamburger {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+/* Search Bar */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 40px;
+    background: linear-gradient(135deg, #6f7172, #3d4044); /* Elegant gradient */
+    border-radius: 12px; /* Softer rounded edges */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Softer, more elegant shadow */
+}
+
+.search-container h1 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+/* Search Input */
+.search-container input {
+    width: 100%;
+    max-width: 500px; /* Larger input box for better visibility */
+    padding: 15px 40px; /* Spacious padding */
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 50px; /* Fully rounded edges */
+    outline: none;
+    background-color: #fff;
+    color: #333;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for elegance */
+    transition: all 0.3s ease; /* Smooth transition for interaction */
+}
+
+.search-container input:focus {
+    border-color: #00c6ff; /* Focus effect */
+    box-shadow: 0 0 8px rgba(0, 198, 255, 0.5);
+}
+
+.search-container input::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+/* Search Button */
+.search-container button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    background-color: #ffc107; /* Warm yellow background */
+    color: #333;
+    border: none;
+    border-radius: 50px; /* Rounded edges */
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.search-container button:hover {
+    background-color: #ffca28; /* Hover color effect */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon inside Input Field */
+.search-container .search-icon {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #007bff;
+    font-size: 1.3rem;
+}
+
+/* News Cards Styling */
+.news-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.news-card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.news-card .card-title {
+    color: #333;
+    font-weight: bold;
+}
+
+.btn-dark {
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-dark:hover {
+    background-color: #ffca28;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+}
+
+footer h5 {
+    font-size: 1.2rem;
+}
+
+footer span {
+    color: #ffc107;
+}
+
+/* News Type Title */
+#newsType h4 {
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0 1rem;
+    color: #555;
+}

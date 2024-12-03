@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/youtube.png') no-repeat center center fixed;
+    background-size: cover; /* Ensure the background covers the whole screen */
+    color: #333;
+}
+
+.search-container {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.video-card {
+    margin: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.video-card img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.video-card .card-body {
+    padding: 10px;
+}
+
+.video-card .card-title {
+    font-size: 1.2rem;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    padding: 20px 0;
+    color: white;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-nav ul li a:hover,
+.main-nav ul li a.active {
+    color: #ffc107;
+}
+
+/* Hamburger Menu (for mobile view) */
+.menu-toggle .hamburger {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}

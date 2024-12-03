@@ -1,0 +1,85 @@
+/* General Styling */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding-top: 60px; /* Adjust to match navbar height */
+    background: url('images/book5.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #2c2c2c;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it appears above other content */
+    transition: top 0.3s;
+}
+
+/* Navigation links */
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-nav ul li {
+    margin: 0 15px;
+}
+
+.main-nav ul li a {
+    color: #f4f4f9;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.main-nav ul li a:hover,
+.main-nav ul li a.active {
+    background-color: #ffc107;
+    color: #000;
+}
+
+/* Additional Fix for body padding */
+body {
+    padding-top: 80px; /* This space matches the navbar height */
+}
+
+/* Search Section */
+.search-container {
+  
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    margin: 60px auto;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.search-container button:hover {
+    background-color: #5a6368; /* Darker gray when hovered */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Keeps navbar on top */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: top 0.3s;
+}

@@ -1,0 +1,328 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Navbar Styling */
+
+.custom-navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+}
+
+header {
+    background-color: #007bff; /* Blue color for the navbar */
+    padding: 20px 0;
+    color: white;
+}
+
+.main-nav {
+    text-align: center;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-nav ul li a:hover {
+    color: #ffc107; /* Yellow hover effect */
+}
+
+.main-nav ul li a i {
+    margin-right: 8px;
+}
+
+/* Hamburger Menu (for mobile view) */
+.menu-toggle .hamburger {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+/* Search Bar */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 30px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.search-container input {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+/* News Cards Styling */
+.news-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.news-card img {
+    border-radius: 10px 10px 0 0;
+}
+
+.news-card .card-title {
+    color: #333;
+    font-weight: bold;
+}
+
+.btn-dark {
+    background-color: #ffc107;
+    color: #000;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-dark:hover {
+    background-color: #ffca28;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+}
+
+footer h5 {
+    font-size: 1.2rem;
+}
+
+footer span {
+    color: #ffc107;
+}
+
+/* News Type Title */
+#newsType h4 {
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0 1rem;
+    color: #555;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:
+                url('images/wew.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    backdrop-filter: blur(5px);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px 0;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+header .logo span {
+    color: #ffc107;
+}
+
+.main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-nav ul li {
+    margin: 0 15px;
+}
+
+.main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-nav ul li a:hover, 
+.main-nav ul li a.active {
+    color: #ffc107;
+}
+
+.hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+.hero .btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 1rem;
+}
+
+.featured-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+}
+
+.featured-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.feature-box img {
+    max-width: 80px;
+    margin-bottom: 20px;
+}
+
+.feature-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.newsletter {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.newsletter form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.newsletter input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffc107;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.testimonials {
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #ffc107;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+}
+
+.social-icons a:hover {
+    color: #ffc107;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.scroll-to-top:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.testimonial p
+{
+    color: black;
+}
+h3{
+    color: black;
+    font-weight:bold;
+}
